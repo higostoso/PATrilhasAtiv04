@@ -1,0 +1,35 @@
+using System;
+
+namespace higor1
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("digite uma palavra?");
+			string resposta = (Console.ReadLine());
+			 
+			 
+			 	
+			if  ( resposta != "")
+			{
+				Console.WriteLine("A palavra não é vazia!");
+
+			}
+			
+			else
+			{
+				Console.WriteLine("A palavra é vazia!!");
+		
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
