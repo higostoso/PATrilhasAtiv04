@@ -1,0 +1,37 @@
+using System;
+
+namespace higor1
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("Você é assinante de um serviço de streaming?");
+			 string assinante = (Console.ReadLine());
+			
+			
+			Console.WriteLine("Você já assistiu a uma série específica?");
+			string serie = (Console.ReadLine());
+			
+			if (assinante == "sim" || serie == "sim")
+			{
+				Console.WriteLine("Ótimo, agora você pode assistir à nova temporada!");
+
+			}
+			
+			else
+			{
+				Console.WriteLine("Você não pode assistir a serie");
+			
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
