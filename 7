@@ -1,0 +1,35 @@
+using System;
+
+namespace higor1
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("Digite um numero inteiro?");
+			int numero = int.Parse(Console.ReadLine().ToLower());
+			 
+			 
+			 	
+			 if  (numero / 3 == 1 || numero / 5 == 1)
+			{
+				Console.WriteLine("O numero é divisivel por 3 ou por 5!");
+
+			}
+			
+			else
+			{
+				Console.WriteLine("O numero não é divisivel por 3 ou por 5!");
+		
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
