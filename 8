@@ -1,0 +1,35 @@
+using System;
+
+namespace higor1
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("Você deseja comprar um produto?");
+			string compra =  (Console.ReadLine().ToLower());
+			 
+			 
+			 	
+			 if  (compra == "sim" || compra == "s")
+			{
+				Console.WriteLine("Obrigado pela compra!");
+
+			}
+			
+			else
+			{
+				Console.WriteLine("Não foi possivel efetuar a compra!");
+		
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
