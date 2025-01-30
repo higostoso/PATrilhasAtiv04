@@ -1,0 +1,35 @@
+using System;
+
+namespace higor1
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("Você não é um membro inativo do clube?");
+			string resposta = (Console.ReadLine());
+			 
+			 
+			 	
+			if  ( resposta == "não")
+			{
+				Console.WriteLine("Por favor, atualize sua inscrição para continuar usufruindo dos benefícios do clube");
+
+			}
+			
+			else
+			{
+				Console.WriteLine("Aproveite os seus benefícios!");
+		
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
