@@ -1,0 +1,35 @@
+using System;
+
+namespace higor1
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("digite um numero inteiro?");
+			int numero = int.Parse (Console.ReadLine());
+			 
+			 
+			 	
+			 if  (numero > 10 || numero < 0)
+			{
+				Console.WriteLine("Numero Invalido!");
+
+			}
+			
+			else
+			{
+				Console.WriteLine("Numero Valido!");
+		
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
