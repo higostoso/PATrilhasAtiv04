@@ -1,0 +1,35 @@
+using System;
+
+namespace higor1
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("Você não deseja cancelar uma operação?");
+			string resposta = (Console.ReadLine());
+			 
+			 
+			 	
+			if  ( resposta == "não")
+			{
+				Console.WriteLine("Por favor, confirme o cancelamento da operação");
+
+			}
+			
+			else
+			{
+				Console.WriteLine("Operação cancelada");
+		
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
